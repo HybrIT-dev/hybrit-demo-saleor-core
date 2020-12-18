@@ -73,8 +73,8 @@ stages:
         - publish: $(Build.ArtifactStagingDirectory)/drop
           displayName: "publish artifact"
           artifact: output
-  - stage: deploy_test
-    displayName: Deploy to test
+  - stage: deploy
+    displayName: Deploy
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     dependsOn: Build
     jobs:
