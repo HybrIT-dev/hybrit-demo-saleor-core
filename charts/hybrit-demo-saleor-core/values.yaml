@@ -35,7 +35,7 @@ env:
   - name: ALLOWED_HOSTS
     value: "*"
   - name: DATABASE_URL
-    value: ""
+    value: "postgres://viscon_admin@viscon-postgres-weu:dB9KGA0KesoR@viscon-postgres-weu.postgres.database.azure.com:5432/saleor-test-db"
   - name: DEFAULT_FROM_EMAIL
     value: "no-reply@hybrit.org"
   - name: SECRET_KEY
@@ -43,7 +43,7 @@ env:
   - name: DEFAULT_CURRENCY
     value: "EUR"
   - name: EMAIL_URL
-    value: ""
+    value: "smtp://apikey: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@smtp.sendgrid.com:465/?ssl=True"
   - name: DEFAULT_COUNTRY
     value: "NL"
 
