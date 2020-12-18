@@ -1,5 +1,4 @@
 *.py[cod]
-.*
 !.babelrc
 !.circleci
 !.codeclimate.yml
@@ -35,3 +34,6 @@ dist/
 
 # Exported results file
 django-queries-results.html
+.gitsecret/keys/random_seed
+!*.secret
+charts/hybrit-demo-saleor-core/values.yaml
